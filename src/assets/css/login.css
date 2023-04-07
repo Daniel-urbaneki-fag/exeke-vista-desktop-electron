@@ -1,0 +1,55 @@
+.page-area {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-input-text {
+    background-color: #727272;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.input-text {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 20px;
+}
+
+.input-text > input {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    height: 30px;
+}
+
+.input-text > label {
+    color: #ffff;
+}
+
+.reset-password {
+    display: flex;
+    width: 80%;
+    justify-content: flex-end;
+}
+
+.reset-password > a {
+    text-decoration: none;
+    color: #ffff !important;
+}
+
+.btn-button-logar {
+    background-color: #F26A35;
+    width: 40%;
+    border-radius: 10px;
+    color: #ffff;
+    margin-top: 30px;
+}
