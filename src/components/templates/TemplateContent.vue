@@ -1,17 +1,17 @@
 <template>
     <v-container>
-      <PageLogin/>
+      <PageHome/>
     </v-container>
   </template>
   
   <script>
   require('../../assets/css/content.css')
-  import PageLogin from '../pages/PageLogin.vue';
+  import PageHome from '../pages/PageHome.vue';
   export default {
     name: 'TemplateContent',
   
     components: {
-      PageLogin
+      PageHome
     },
   
     data: () => ({

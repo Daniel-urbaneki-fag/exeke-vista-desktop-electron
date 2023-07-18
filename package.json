@@ -17,7 +17,7 @@
     "core-js": "^3.8.3",
     "roboto-fontface": "*",
     "vue": "^3.2.13",
-    "vue-router": "^4.2.2",
+    "vue-router": "^4.2.4",
     "vuetify": "^3.0.0-beta.0",
     "webfontloader": "^1.0.0"
   },
@@ -33,6 +33,8 @@
     "eslint-plugin-vue": "^8.0.3",
     "vue-cli-plugin-electron-builder": "~2.1.1",
     "vue-cli-plugin-vuetify": "~2.5.8",
+    "vue-loader": "^17.2.2",
+    "vue-template-compiler": "^2.7.14",
     "webpack-plugin-vuetify": "^2.0.0-alpha.0"
   },
   "eslintConfig": {
@@ -60,5 +62,4 @@
     "path": false,
     "os": false
   }
-  
 }

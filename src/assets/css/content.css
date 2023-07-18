@@ -5,6 +5,7 @@
     padding: 0px;
     display: flex;
     justify-content: center;
+    max-width: 100%;
 }
 
 .v-main {

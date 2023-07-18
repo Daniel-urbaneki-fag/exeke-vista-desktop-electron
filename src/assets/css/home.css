@@ -1,0 +1,40 @@
+.page-home {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.box-aside-home {
+    background-color: #171F24;
+    width: 20%;
+}
+
+.box-section-home {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-button-home {
+    margin: 30px;
+}
+
+.box-button-home > div {
+    margin: 30px 0px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.box-button-home .router-link {
+    color: #ffffff;
+    margin: 5px 0px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.button-orange {
+    background-color: #F26A35;
+    width: 200px;
+    border-radius: 10px;
+}
